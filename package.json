@@ -1,0 +1,24 @@
+{
+  "name": "scraping-ebay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd frontend && npm install)",
+    "server": "node ./server/server.js",
+    "frontend": "cd frontend && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.0",
+    "faker": "^6.6.6",
+    "if-env": "^1.0.4",
+    "semantic-ui-react": "^2.1.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+}
