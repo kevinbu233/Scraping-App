@@ -2,10 +2,8 @@ import Switch from "@mui/material/Switch";
 import React, { useState, useEffect, useCallback } from "react";
 import { useCookies } from "react-cookie";
 import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
-import FormLabel from "@mui/material/FormLabel";
+
 import FormControl from "@mui/material/FormControl";
-import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";

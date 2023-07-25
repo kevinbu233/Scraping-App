@@ -1,19 +1,8 @@
-import ListHeader from "./ListHeader";
+
 import {useCallback, useEffect, useState} from 'react'
 import ListItem from "./ListItem";
-import SearchBar from "./SearchBar";
-import Auth from "./Auth"
-import BasicTabs from "./Tabs"
+
 import { useCookies } from "react-cookie";
-
-
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-
-
-
 
 
 const MyItems = () => {
