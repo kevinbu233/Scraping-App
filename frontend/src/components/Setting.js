@@ -23,7 +23,7 @@ function Setting() {
     ebay: {
       order: "default",
       sold: false,
-      priceMin: "hi",
+      priceMin: 0,
       priceMax: 10000,
     },
     facebook: {
