@@ -152,7 +152,7 @@ app.post('/signup', async(req, res)=> {
         const editSetting = await pool.query(`INSERT INTO settings (user_email, ebay, ebay_order, ebay_min, ebay_max, 
             facebook, facebook_order, facebook_min, facebook_max,
             etsy, etsy_order, etsy_min, etsy_max, show_num, ebay_sold, facebook_sold) VALUES ($1, $2, $3, $4, 
-        $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)`,
+        $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16)`,
         [email, true, 'default', 0, 10000, true, 'default', 0, 10000, true, 'default', 0, 10000, 5, false, false])
         const token = jwt.sign({email}, 'secret', {expiresIn: '1hr'})
 
